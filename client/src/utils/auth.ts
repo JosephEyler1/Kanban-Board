@@ -1,4 +1,4 @@
-import { JwtPayload, default as jwtDecode } from 'jwt-decode';
+import { type JwtPayload, jwtDecode } from 'jwt-decode';
 
 class AuthService {
   // Get user profile from decoded token
